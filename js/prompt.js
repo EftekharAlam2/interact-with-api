@@ -1,4 +1,3 @@
-// alert('How are you')
 const showAlert = () => {
   alert("Dosto, taka ase dhar dite parbi, just 500?");
 };
@@ -14,8 +13,6 @@ const lendMoney = () => {
 };
 
 const getInfo = () => {
-  // alert
-  // confirm
   const name = prompt("Tell me your name");
   console.log(name);
   if (name === null) {
